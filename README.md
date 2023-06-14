@@ -1,5 +1,6 @@
 Keylogger Application:
-  This is a keylogger application written in Python that captures keystrokes and sends them to a specified email address. It operates silently in the background and can be used for monitoring purposes or as a personal tool. However, it is crucial to use this application responsibly and legally, respecting privacy and obtaining proper consent.
+
+   This is a keylogger application written in Python that captures keystrokes and sends them to a specified email address. It operates silently in the background and can be used for monitoring purposes or as a personal tool. However, it is crucial to use this application responsibly and legally, respecting privacy and obtaining proper consent.
 
 Features:
    1. Captures keystrokes from the user's keyboard.
@@ -14,27 +15,27 @@ Prerequisites:
            The pynput and smtplib Python packages installed.
            
 Setup:
-  Clone this repository or download the source code files to your local machine.
-  Install the required Python packages using the following command:
-  Copy code
-  pip install pynput smtplib
-  Open the keylogger.py file in a text editor.
+  1. Clone this repository or download the source code files to your local machine.
+  2. Install the required Python packages using the following command:
+  3. Copy code
+  4. pip install pynput smtplib
+  4. Open the keylogger.py file in a text editor.
 
 Modify the following variables to configure the email settings:
-  sender_mail: Enter your email address.
-  receiver_mail: Enter the email address where you want to receive the log file.
-  password: Enter the password for your email account.
-  port: Enter the SMTP port for your email provider.
-  Adjust other configuration options if necessary.
+  1. sender_mail: Enter your email address.
+  2. receiver_mail: Enter the email address where you want to receive the log file.
+  3. password: Enter the password for your email account.
+  4. port: Enter the SMTP port for your email provider.
+  5. Adjust other configuration options if necessary.
 
 Usage:
-  To run the keylogger application, follow these steps:
-  Open a terminal or command prompt.
-  Navigate to the directory where the keylogger.py file is located.
+  1. To run the keylogger application, follow these steps:
+  2. Open a terminal or command prompt.
+  3. Navigate to the directory where the keylogger.py file is located.
 
 Run the following command:
-  Copy code
-  python keylogger.py
+
+           python keylogger.py
   The keylogger will start running silently in the background, capturing keystrokes.
   To stop the keylogger, press the Esc key.
 
